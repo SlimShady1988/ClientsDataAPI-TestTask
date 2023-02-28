@@ -111,7 +111,7 @@ const App = observer(() => {
                             )}
                             </tbody>
                         </Table>
-                        <Pagination className="">
+                        <Pagination style={{ position: 'absolute', bottom: '10vh' }}>
                             {pages.map(pagePagin =>
                                 <Pagination.Item
                                     key={pagePagin}
